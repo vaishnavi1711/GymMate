@@ -1,0 +1,92 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    /* Light grey background for a clean look */
+    color: #333;
+    /* Dark grey text for readability */
+}
+
+header {
+    background-color: #101418;
+    /* Deep dark blue, conveying strength and reliability */
+}
+
+.logo {
+    height: 50px;
+    /* Ensures the logo is prominently displayed */
+}
+
+.nav {
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-link {
+    color: #fff !important;
+    /* White text for contrast */
+    font-weight: 700;
+    /* Bold font for navigation links to stand out */
+    transition: color 0.3s ease-in-out;
+    /* Smooth transition for hover effects */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #f0ad4e !important;
+    /* Bootstrap's orange for highlighting active or hovered links */
+}
+
+/* Styling for sections to the sides of the webcam interface */
+.exercise-set {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    /* Soft shadow for depth */
+}
+
+/* Center webcam interface styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    /* Rounded corners for the webcam placeholder image */
+}
+
+/* Footer styling */
+footer {
+    background-color: #101418;
+    /* Matching the header for consistency */
+    color: #fff;
+    /* White text for readability */
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 0;
+    /* Removes default margin for cleaner spacing */
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+        /* Restricts the maximum width for larger containers */
+    }
+}
+
+/* Custom utilities */
+.text-white {
+    color: #fff !important;
+    /* Ensures text is white where needed */
+}
+
+.bg-dark {
+    background-color: #282c34 !important;
+    /* Slightly lighter dark blue for background sections */
+}
